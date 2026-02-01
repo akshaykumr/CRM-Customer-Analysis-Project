@@ -2,7 +2,7 @@
 -- CRM CUSTOMER ANALYSIS PROJECT - SQL QUERIES
 -- ========================================
 
--- 1) Create table (adjust data types if needed)
+-- 1) Create table 
 CREATE TABLE IF NOT EXISTS sales_data (
     "Order ID" TEXT,
     "Date" DATE,
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS sales_data (
     "ship-postal-code" TEXT
 );
 
--- 2) Total orders & revenue per customer (proxy: postal code)
+-- 2) Total orders & revenue per customer 
 SELECT 
     "ship-postal-code" AS customer_id,
     COUNT(DISTINCT "Order ID") AS total_orders,
