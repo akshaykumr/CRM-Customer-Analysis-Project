@@ -66,5 +66,5 @@ GROUP BY customer_type;
 3. Modify churn window (default = 90 days) if needed.
 
 ## 👤 Author
-Your Name  
+Akshay Kumar
 Aspiring Business Analyst / Data Analyst
